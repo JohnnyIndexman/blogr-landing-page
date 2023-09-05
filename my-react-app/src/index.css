@@ -1,0 +1,155 @@
+
+.Navbar a{
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(179, 5, 106);
+  padding: 10px;
+ 
+}
+
+.links{
+  padding-top: 15px;
+  margin-right: 40px;
+}
+
+.Navbar a:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+.Navbar{
+  display: flex;
+  margin: 40px auto;
+  justify-content: space-between;
+}
+
+.Navbar h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  color: rgb(179, 5, 106);
+  margin-top: 15px;
+}
+
+.blog{
+  color: rgb(4, 110, 57);
+}
+
+.home{
+  font-family: Arial, Helvetica, sans-serif;
+  color:  rgb(4, 110, 57);
+}
+
+.home h2{
+  color: rgb(179, 5, 106);
+}
+
+.home h3{
+  color: gray;
+}
+
+.home small{
+  color: rgb(179, 5, 106);
+}
+
+.content{
+  margin: 40px auto;
+  max-width: 1440px;
+  
+
+}
+
+.overall{
+  display: flex;
+  padding: 20px;
+}
+
+.login{
+  width: 100px; 
+  height: 40px; 
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 20px; 
+  background-color: rgb(4, 110, 57);
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.SignUp{
+  width: 100px; 
+  height: 40px; 
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 20px; 
+  background-color: #fff;
+  color: rgb(4, 110, 57);
+  font-size: 15px;
+  border: none; 
+  border: 1px solid rgb(4, 110, 57);
+  cursor: pointer;
+}
+
+.blogPrev a{
+  text-decoration: none;
+  color:  rgb(4, 110, 57);
+}
+
+.blog-details h2{
+  color:  rgb(179, 5, 106);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.blog-details h3{
+  color:  gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.div{
+  font-family: Arial, Helvetica, sans-serif;
+  height: 200px;
+  border: 1px solid gray;
+  width: 400px;
+  box-shadow: 4px 4px 2px;
+}
+
+.blog-details div p{
+  color: rgb(4, 110, 57);
+  line-height: 30px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.create{
+  color:gray;
+  font-family:'sans-serif';
+}
+
+.create form{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.create textarea{
+  height: 200px;
+}
+
+.create input[type=submit]{
+  background-color: rgb(179, 5, 106);
+  color: #fff;
+  border: none;
+  height: 25px;
+}
+
+.delete {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 15px;
+  border: none;
+  background:  rgb(4, 110, 57);
+}
